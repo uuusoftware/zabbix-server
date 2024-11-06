@@ -1,0 +1,3 @@
+zbx_env/var/lib/postgresql
+zbx_env/var/lib/mysql
+.backups
