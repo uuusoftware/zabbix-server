@@ -188,11 +188,11 @@ services:
       # - SCHEDULE=@daily # Default
       - SCHEDULE=@daily
       # - BACKUP_KEEP_DAYS=7 # Default
-      - BACKUP_KEEP_DAYS=1
+      - BACKUP_KEEP_DAYS=3
       # - BACKUP_KEEP_WEEKS=4 # Default
-      - BACKUP_KEEP_WEEKS=1
+      - BACKUP_KEEP_WEEKS=0
       # - BACKUP_KEEP_MONTHS=6 # Default
-      - BACKUP_KEEP_MONTHS=1
+      - BACKUP_KEEP_MONTHS=3
       - HEALTHCHECK_PORT=8080
 
   dnsmasq:
